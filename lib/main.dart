@@ -1,5 +1,8 @@
-import 'package:english_words/english_words.dart';
+// ignore_for_file: unused_import
+
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() => runApp(XylophoneApp());
 
@@ -10,8 +13,23 @@ class XylophoneApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
-          child: Container(),
-        ),
+            child: Column(
+          children: [
+            Row(
+              children: [
+                Expanded(
+                  child: TextButton(
+                    child: const Text('Click me'),
+                    onPressed: () async {
+                      final player = AudioPlayer();
+                      await player.play(AssetSource('note1.wav'));
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ],
+        )),
       ),
     );
   }
