@@ -50,3 +50,4 @@ class XylophoneApp extends StatelessWidget {
     );
   }
 }
+//flutter build apk --split-per-abi   

@@ -1,16 +1,44 @@
-# xylophone
+# Xylophone App
 
-A new Flutter project.
+This is a simple xylophone app built using Flutter. It allows users to play different notes by tapping on colored keys displayed on the screen.
+
+## Features
+- Produces sound corresponding to each key when tapped.
+- Each key has a unique color for visual identification.
 
 ## Getting Started
+To run this app, make sure you have Flutter installed on your machine. If not, follow the [official Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
-This project is a starting point for a Flutter application.
+1. Clone this repository or download the source code.
+2. Open the project in your preferred IDE or text editor.
+3. Connect a device or start an emulator.
+4. Run the app using the command `flutter run`.
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
+This project uses the following dependencies:
+- audioplayers: ^6.0.0
+  - A Flutter plugin for playing audio files.
+- flutter: sdk: flutter
+- cupertino_icons: ^1.0.6
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You can find more details about these dependencies in the `pubspec.yaml` file.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+- Upon launching the app, you'll see a set of colored keys on the screen.
+- Tap on any key to play its corresponding sound.
+
+## Structure
+The project structure is organized as follows:
+- `main.dart`: Entry point of the application.
+- `assets`: Directory containing audio files for each note.
+- `README.md`: Readme file with information about the app.
+
+## Screenshots
+![Screenshot](screenshot.png)
+
+## Contributing
+Contributions are welcome! If you have any ideas, enhancements, or bug fixes, feel free to open an issue or create a pull request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
