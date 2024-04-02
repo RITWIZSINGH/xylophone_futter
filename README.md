@@ -34,7 +34,7 @@ The project structure is organized as follows:
 - `README.md`: Readme file with information about the app.
 
 ## Screenshots
-![Screenshot](screenshot.png)
+![Screenshot](images/ScreenShot.jpg)
 
 ## Contributing
 Contributions are welcome! If you have any ideas, enhancements, or bug fixes, feel free to open an issue or create a pull request.
