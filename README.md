@@ -35,6 +35,8 @@ The project structure is organized as follows:
 
 ## Screenshots
 ![Screenshot](images/ScreenShot.png)
+<img src="images/screenshot.png" alt="Screenshot" width="400" height="auto">
+
 
 ## Contributing
 Contributions are welcome! If you have any ideas, enhancements, or bug fixes, feel free to open an issue or create a pull request.
